@@ -20,3 +20,9 @@ bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 
 ## OpenJDK
 위치: https://github.com/ojdkbuild/ojdkbuild
+
+
+## Redmine DB 백업
+```
+exec mysqldump -uroot -pexample redmine > /var/lib/mysql/DBBackup_$(date  '+%A').dump
+```
