@@ -16,3 +16,7 @@ DB Migration 이동
 ```
 bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 ```
+
+
+## OpenJDK
+위치: https://github.com/ojdkbuild/ojdkbuild
