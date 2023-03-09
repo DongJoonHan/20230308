@@ -26,3 +26,6 @@ bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 ```
 mysqldump -uroot -pexample redmine > /var/lib/mysql/DBBackup_$(date  '+%A').dump
 ```
+
+
+https://kmin135.blogspot.com/2017/08/bitnami-redmine.html
